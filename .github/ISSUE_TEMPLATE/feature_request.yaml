@@ -70,5 +70,5 @@ body:
       label: Additional Context
       description: "Provide any other context, prerequisites, or relevant information here."
       placeholder: "Any additional information or context about the feature goes here."
-labels: feature-request
-title: "[Feature Request]" 
+labels: feature
+title: "[Feature]" 
