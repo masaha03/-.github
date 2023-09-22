@@ -1,0 +1,80 @@
+name: Bug Report
+description: Report a new problem
+body:
+  - type: textarea
+    attributes:
+      label: Overview
+      description: "Provide a brief description of the issue."
+      placeholder: "Description of the issue goes here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: "List the steps to reproduce the issue."
+      placeholder: "1. [First step] \n2. [Second step] \n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: "Describe what you expected to happen here."
+      placeholder: "Expected behavior description goes here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: "Describe what actually happened here."
+      placeholder: "Actual behavior description goes here."
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Project
+      description: "Specify the project or module this issue relates to, if applicable."
+      placeholder: "Project name goes here."
+  - type: input
+    attributes:
+      label: Category
+      description: "Specify the category for this issue, e.g., 'Front-end', 'Back-end', 'UI/UX', 'Documentation'."
+      placeholder: "Category goes here."
+  - type: input
+    attributes:
+      label: Milestone
+      description: "Specify the milestone or target release for this issue, if applicable."
+      placeholder: "Milestone name goes here."
+  - type: checkboxes
+    attributes:
+      label: Environments
+      description: "Specify the Environment(s) where you observed the issue. You may select more than one."
+      options:
+        - label: Local
+        - label: Develop
+        - label: Production
+        - label: Other
+  - type: checkboxes
+    attributes:
+      label: Operationg Systems
+      description: "Specify the operating system(s) where you observed the issue. You may select more than one."
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+        - label: Other
+  - type: checkboxes
+    attributes:
+      label: Browsers
+      description: "Specify the Browser(s) where you observed the issue. You may select more than one."
+      options:
+        - label: Chrome
+        - label: Safari
+        - label: Firefox
+        - label: Other
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: "Provide any other observations, hints, or relevant information here."
+      placeholder: "Any additional information or context about the issue goes here."
+labels: bug
+title: [Bug] 
