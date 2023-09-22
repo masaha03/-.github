@@ -77,4 +77,4 @@ body:
       description: "Provide any other observations, hints, or relevant information here."
       placeholder: "Any additional information or context about the issue goes here."
 labels: bug
-title: [Bug] 
+title: "[Bug]" 
