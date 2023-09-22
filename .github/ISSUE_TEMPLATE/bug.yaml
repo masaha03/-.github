@@ -1,4 +1,4 @@
-name: Bug Report
+name: Bug
 description: Report a new problem
 body:
   - type: textarea
