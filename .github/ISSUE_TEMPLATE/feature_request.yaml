@@ -1,0 +1,74 @@
+name: Improve
+description: Suggest a new feature or improvement
+body:
+  - type: textarea
+    attributes:
+      label: Overview
+      description: "Provide a brief description of the feature."
+      placeholder: "Description of the feature goes here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Benefits
+      description: "Describe the benefits of implementing this feature."
+      placeholder: "List the benefits or advantages goes here."
+  - type: textarea
+    attributes:
+      label: Use Cases
+      description: "Describe situations where this feature would be useful."
+      placeholder: "Use case scenarios go here."
+  - type: textarea
+    attributes:
+      label: Possible Solutions
+      description: "If you have thoughts on how this feature can be implemented, share them here."
+      placeholder: "Possible solutions or ideas go here."
+  - type: input
+    attributes:
+      label: Project
+      description: "Specify the project or module this feature relates to, if applicable."
+      placeholder: "Project name goes here."
+  - type: input
+    attributes:
+      label: Category
+      description: "Specify the category for this feature, e.g., 'Front-end', 'Back-end', 'UI/UX', 'Documentation'."
+      placeholder: "Category goes here."
+  - type: input
+    attributes:
+      label: Milestone
+      description: "Specify the milestone or target release for this feature, if applicable."
+      placeholder: "Milestone name goes here."
+  - type: checkboxes
+    attributes:
+      label: Affected Environments
+      description: "Specify the Environment(s) that would benefit from this feature. You may select more than one."
+      options:
+        - label: Local
+        - label: Develop
+        - label: Production
+        - label: Other
+  - type: checkboxes
+    attributes:
+      label: Target Operating Systems
+      description: "Specify the operating system(s) where this feature would be most relevant. You may select more than one."
+      options:
+        - label: macOS
+        - label: Windows
+        - label: Linux
+        - label: Other
+  - type: checkboxes
+    attributes:
+      label: Target Browsers
+      description: "Specify the Browser(s) that would benefit from this feature. You may select more than one."
+      options:
+        - label: Chrome
+        - label: Safari
+        - label: Firefox
+        - label: Other
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: "Provide any other context, prerequisites, or relevant information here."
+      placeholder: "Any additional information or context about the feature goes here."
+labels: feature-request
+title: "[Feature Request]" 
